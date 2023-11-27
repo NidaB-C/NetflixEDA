@@ -79,21 +79,27 @@ The DataFrame was saved as netflix_shows.csv for subsequent analysis, ensuring a
 ##### Preliminary Exploration:
 An initial exploration of the dataset was conducted to understand its structure, the types of data available, and the quality of the data.
 Key columns like 'genres', 'release_year', 'imdb_score', and 'production_countries' were examined for patterns and distributions.
-##### Further Analysis:
-With the cleaned and enriched dataset, further explorations are planned to answer the project's questions. These include examining trends in show genres, popularity based on IMDb scores, and the influence of production regions and languages on show characteristics.
+
+### Data Analysis, Visualisation and Interpretation
+
+#### 1. Maturity Rating Evolution:
+##### Team Member Responsible - Ammarah
+- How do different age certifications (like TV-MA, TV-14) perform in terms of quantity and popularity?
+- Does this reflect any broader market trends or shifts in audience demographics?
 
 #### 2. Pandemic and Reality TV Popularity:
 ##### Team Member Responsible - Safa
+- Was there a significant rise in the popularity of reality TV shows during the pandemic, and has this increase been sustained post-pandemic?
+- How do scripted TV shows perform in comparison to non-scripted ones in terms of IMDb scores, viewer engagement, and production rates?
 
-The number of reality TV shows saw a marked increase during the time of the pandemic. The line graph depicting the number of reality TV shows produced each year shows a peak that aligns with the onset of the pandemic. This suggests that the pandemic may have influenced a surge in the production of reality TV shows. Whether this increase has been sustained post-pandemic cannot be conclusively determined from the graph alone as it shows a subsequent decline. However, the decline could be due to various factors, including a return to pre-pandemic production levels as restrictions eased or a lag in data reporting.
+#### 3. Genre Production Patterns:
+##### Team Member Responsible - Nana
+- What can be inferred about Netflix's content strategy based on the genres and types of shows produced?
+- How has the diversity of production regions and languages changed over time on Netflix?
+- How does Netflix's content portfolio compare with its initial years versus the more recent years?
 
-##### Performance of Scripted vs. Non-Scripted Shows:
-
-When it comes to performance as measured by IMDb scores and votes, scripted TV shows generally appear to perform better than non-scripted ones. The average IMDb score for reality shows is lower when compared to many scripted genres. This pattern is consistent across both the bar chart and dot plot, indicating that while reality shows are prevalent, they do not tend to be rated as highly as scripted shows.
-Viewer engagement, as indicated by the number of IMDb votes, shows that genres such as sci-fi and action garner more votes on average, which can suggest higher engagement levels. Reality TV shows do not appear at the top in terms of the average number of IMDb votes, which might imply comparatively lower engagement on this platform.
-
-##### Conclusion:
-
-The analysis indicates a significant rise in the production of reality TV shows during the pandemic. This could be a response to production challenges during the pandemic, as reality shows are typically quicker and less resource-intensive to produce. In comparison, scripted TV shows tend to have higher IMDb scores, suggesting a higher level of critical acclaim. However, the total number of votes, which can be an indicator of engagement, shows that reality TV holds a substantial presence, indicating a niche but potentially loyal audience base.
-
-These findings could guide streaming services in content planning, particularly in adapting to unpredictable circumstances like a pandemic and understanding the balance between the appeal of reality content and the acclaim of scripted shows.
+#### 4. IMDb Score, Votes, and Genre Relationship:
+##### Team Member Responsible - Eoghan
+- Are certain genres consistently receiving higher ratings and votes?
+- Are older shows maintaining popularity, or is there a trend towards newer releases?
+- What factors contribute to higher viewer engagement and popularity for TV shows on Netflix? (Consider aspects like genre, production country, language, and runtime.)
