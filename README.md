@@ -53,4 +53,32 @@ This project aims to conduct a comprehensive analysis of TV shows available on N
  - Also provide support as needed to other team members.
 
 
+### Overview of Data Collection, Cleanup, and Exploration Process
+The process of data collection, cleanup, and exploration was meticulously carried out to ensure that the resulting dataset is both comprehensive and relevant for detailed analysis. The integration of external API data from OMDB significantly enhanced the dataset's utility, making it a robust resource for exploring trends in Netflix's TV show offerings. The prepared dataset, now saved as netflix_shows.csv, is well-positioned to provide insightful answers to the research questions posed in the project.
+#### Data Source and Selection
+##### Primary Source: 
+The initial dataset was sourced from Kaggle, specifically tailored to contain comprehensive information about movies and shows available on Netflix. This dataset was chosen due to its richness in details about each title, such as release year, age certification, runtime, genres, production countries, and IMDb ratings. The focus on Netflix content makes it a valuable resource for understanding current trends in the streaming entertainment industry.
+##### API Integration: 
+To enhance the dataset, the OMDB API was utilized. This API provided additional details for each show, particularly language information, which was not available in the original dataset. The OMDB API was selected for its extensive database and ease of access, allowing for detailed cross-referencing using IMDb IDs.
+
+#### Collection and Cleanup Process
+##### Data Importation and Filtering:
+The Kaggle dataset was first imported into a Pandas DataFrame.
+The dataset was filtered to focus solely on TV shows (type 'SHOW'), aligning with the project's focus on serialized content.
+
+##### API Data Integration:
+Using the OMDB API, language information for each show was retrieved based on their IMDb IDs.
+This data was added to the DataFrame, providing a more comprehensive view of each show.
+
+##### Data Cleanup:
+The genres column, initially containing string representations of lists, was transformed into actual lists for easier analysis - and the use the explode function later on.
+Rows without IMDb IDs were dropped to ensure completeness and reliability of the data.
+The DataFrame was saved as netflix_shows.csv for subsequent analysis, ensuring a clean and enhanced dataset.
+
+#### Exploration Process
+##### Preliminary Exploration:
+An initial exploration of the dataset was conducted to understand its structure, the types of data available, and the quality of the data.
+Key columns like 'genres', 'release_year', 'imdb_score', and 'production_countries' were examined for patterns and distributions.
+##### Further Analysis:
+With the cleaned and enriched dataset, further explorations are planned to answer the project's questions. These include examining trends in show genres, popularity based on IMDb scores, and the influence of production regions and languages on show characteristics.
 
