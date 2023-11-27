@@ -71,7 +71,7 @@ Using the OMDB API, language information for each show was retrieved based on th
 This data was added to the DataFrame, providing a more comprehensive view of each show.
 
 ##### Data Cleanup:
-The genres column, initially containing string representations of lists, was transformed into actual lists for easier analysis - and the use the explode function later on.
+The genres column, initially containing string representations of lists, was transformed into actual lists for easier analysis - and the use of the explode function later on.
 Rows without IMDb IDs were dropped to ensure completeness and reliability of the data.
 The DataFrame was saved as netflix_shows.csv for subsequent analysis, ensuring a clean and enhanced dataset.
 
@@ -82,3 +82,18 @@ Key columns like 'genres', 'release_year', 'imdb_score', and 'production_countri
 ##### Further Analysis:
 With the cleaned and enriched dataset, further explorations are planned to answer the project's questions. These include examining trends in show genres, popularity based on IMDb scores, and the influence of production regions and languages on show characteristics.
 
+#### 2. Pandemic and Reality TV Popularity:
+##### Team Member Responsible - Safa
+
+The number of reality TV shows saw a marked increase during the time of the pandemic. The line graph depicting the number of reality TV shows produced each year shows a peak that aligns with the onset of the pandemic. This suggests that the pandemic may have influenced a surge in the production of reality TV shows. Whether this increase has been sustained post-pandemic cannot be conclusively determined from the graph alone as it shows a subsequent decline. However, the decline could be due to various factors, including a return to pre-pandemic production levels as restrictions eased or a lag in data reporting.
+
+##### Performance of Scripted vs. Non-Scripted Shows:
+
+When it comes to performance as measured by IMDb scores and votes, scripted TV shows generally appear to perform better than non-scripted ones. The average IMDb score for reality shows is lower when compared to many scripted genres. This pattern is consistent across both the bar chart and dot plot, indicating that while reality shows are prevalent, they do not tend to be rated as highly as scripted shows.
+Viewer engagement, as indicated by the number of IMDb votes, shows that genres such as sci-fi and action garner more votes on average, which can suggest higher engagement levels. Reality TV shows do not appear at the top in terms of the average number of IMDb votes, which might imply comparatively lower engagement on this platform.
+
+##### Conclusion:
+
+The analysis indicates a significant rise in the production of reality TV shows during the pandemic. This could be a response to production challenges during the pandemic, as reality shows are typically quicker and less resource-intensive to produce. In comparison, scripted TV shows tend to have higher IMDb scores, suggesting a higher level of critical acclaim. However, the total number of votes, which can be an indicator of engagement, shows that reality TV holds a substantial presence, indicating a niche but potentially loyal audience base.
+
+These findings could guide streaming services in content planning, particularly in adapting to unpredictable circumstances like a pandemic and understanding the balance between the appeal of reality content and the acclaim of scripted shows.
