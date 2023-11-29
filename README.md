@@ -1,5 +1,3 @@
-### Project 1 - Group 1 
-
 ## Group 1 – Nida Ballinger-Chaudhary, Eoghan Alton, Ammarah Ahmad, Nana Mensah, Safa Ali
 
 # Project Title: "Evolving Landscapes of Television: An Analytical Dive into TV Show Trends on Netflix"
