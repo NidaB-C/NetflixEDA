@@ -1,4 +1,4 @@
-# Evolving Landscapes of Television: An Analytical Dive into TV Show Trends on Netflix?
+# Evolving Landscapes of Television: An Analytical Dive into TV Show Trends on Netflix
 
 ![Title Image](Images/readme_images/title.jpeg)
 
