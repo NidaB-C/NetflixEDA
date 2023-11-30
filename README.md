@@ -18,7 +18,6 @@ This project aims to conduct a comprehensive analysis of TV shows available on N
 * [Team](#team-header)
 
 
-
 ## <a id="dataset-header"></a>Dataset
 
 Our primary dataset was the [Netflix Movies and Shows](https://www.kaggle.com/datasets/maso0dahmed/netflix-movies-and-shows/data)\
@@ -34,7 +33,7 @@ The file should be placed in the Resources/ Directory:
 
 Supplemental information on languages using the imdb_id was added from the OMDB API - this was not availible in the original dataset.
 
-The process of data collection, cleanup, and exploration was meticulously carried out to ensure that the resulting dataset is both comprehensive and relevant for detailed analysis. The integration of external API data from OMDB significantly enhanced the dataset's utility, making it a robust resource for exploring trends in Netflix's TV show offerings. The prepared dataset, now saved as netflix_shows.csv(#all-header), is well-positioned to provide insightful answers to the research questions posed in the project.
+The process of data collection, cleanup, and exploration was meticulously carried out to ensure that the resulting dataset is both comprehensive and relevant for detailed analysis. The integration of external API data from OMDB significantly enhanced the dataset's utility, making it a robust resource for exploring trends in Netflix's TV show offerings. The prepared dataset, now saved as netflix_shows.csv(Resources/netflix_shows.csv), is well-positioned to provide insightful answers to the research questions posed in the project.
 
 **Data Limitations**\
 It must be noted that the data was limited in scope e.g. while we had information on the total IMDB votes, we did not have data on the timing of these votes or viewer watch times. Therefore, despite some interesting findings, the plots extracted from the data although **"true"**, do not **"tell the entire story".**
@@ -43,7 +42,6 @@ It must be noted that the data was limited in scope e.g. while we had informatio
 ## <a id="project-header"></a>Project Outline
 
 We decided to tackle a number of key questions:
-
 * **Genre Production Patterns**
 - What can be inferred about Netflix's content strategy based on the genres and types of shows produced?
 - How has the diversity of production regions and languages changed over time on Netflix?
@@ -69,6 +67,7 @@ Here are 2 examples visualisations we created from the data.\
 The plots can be found in the [/Images](/Images) folder after running the code in the Notebook files that are in the root directory.
 
 <img src="Images/Average IMDb Score per Genre.png" width="50%" height="50%"></img>
+<img src="Images/No of reality tv shows made per year.png" width="50%" height="50%"></img>
 
 
 ## <a id="reports-header"></a>Findings Reports and Presentation
@@ -77,42 +76,30 @@ The findings of this project can be found in the [/Presentation](Presentation/) 
 
 There are 3 files:
 
-* 01_Project_scope_notes.pdf
+* 01_Project_Proposal.pdf
 * 02_Presentation.pdf
-* 02_Traffic Accidents Report.pdf
+* 03_Project_Report.pdf
 
 ## <a id="dependencies-header"></a>Dependencies and Setup Required
 
 In order to run the files you will need to install the following packages.
 
-* gmaps `pip install gmaps`
 * pandas `pip install pandas`
 * seaborn `pip install seaborn`
 * matplotlib `pip install matplotlib`
 * scipy `pip install scipy`
 * jupyter notebook `pip install notebook`
 
-**Other Required Files:**
+**OMDB API Key requirement**
 
-**Add the below 2 files into your local cloned repository!** 
+For OMDB you will also need an API key, to run more than 1000 requests a day, from the [The Open Movie Database](https://www.omdbapi.com/apikey.aspx). Please visit the OMDB platform to set up an API key if you do not already have one.
 
-* <a id="all-header"></a>**File 1:** [all.csv - Click to Download](https://drive.google.com/file/d/1ES10z-PFW_QcRHwZx63NA42c2y1LmVPS/view?usp=sharing) (accidents from 2010-2016) - File was not included in the repository due to the large file size.
+1. [config.py - Click to Download](https://drive.google.com/file/d/1ZFgFTRgwHNvPS26gBwVRQA_EY4YsRcq-/view?usp=sharing)
 
-The all.CSV must be placed in the "/Resources" directory.
-![Resources_folder](readme_images/resources_folder.png)
-
-**Gmaps API Key requirement**
-
-For gmaps you will also need an API key from the [Google Maps Platform](https://developers.google.com/maps). Please visit the Google maps platform to set up an API key if you do not already have one.
-
-1. **File 2:** [config.py - Click to Download](https://drive.google.com/file/d/1dQNAoCH0c7C_d5NYVAebVbOevwE1jWqN/view?usp=sharing)
-
-2. Open the file in a text editor or VS code and change "YOUR API KEY HERE" to your API key from the Google Maps API.
-![api](readme_images/api_key.png)
+2. Open the file in a text editor or VS code and change "INSERT API KEY HERE" to your API key from the OMDB API.
+![api](Images/readme_images/api_key.png)
 
 3. The config.py file should be stored in your local repository root folder.
-![config](readme_images/config.png)
-
 
 ## <a id="how-header"></a>How to View / Run the Code
 
@@ -130,19 +117,13 @@ The Jupyter notebook files have comments in the code and Markdown cells beneath 
 
 For a short description of what each notebook contains, please see the [Jupyter Notebooks File Guide](#which-header) section below.
 
-
 ## <a id="which-header"></a>Jupyter Notebooks File Guide
 
-* 01_data_retrieval_step_1.ipynb - Initial data processing and filtering
-* 01_data_retrieval_step_2.ipynb - Initial data processing and filtering
-* 01_data_retrieval_step_3.ipynb - Initial data processing and filtering
-* 02_traffic_vol_vs_accidents.ipynb - Volume of Traffic  vs Number of Accidents
-* 03_When_accidents_happen.ipynb - Days of the week, Time of day, Gender, Age, vs Accidents
-* 04_Where - Heatmaps.ipynb - Google heatmaps of accidents across the UK and accidents in Birmingham
-* 05_RoadSafety.ipynb - Number of Casualties vs Speed limit and Number of Casualties vs Time of day
-* 06_Speed Limit Project - FINAL.ipynb - Number of accidents vs speed limit and Number of Accidents vs Vehicle Manouvre.
-* 07_Accidents By Road Class and Road Type - Number of Accidents by Severity for Road Class and Road Type
-* 08_weather.ipynb - Number of Accidents vs Weather Condition
+* 01_data_cleanup.ipynb - Initial data processing and filtering
+* 02_genre_production_patterns.ipynb - Explores links between Netflix's content strategy over time
+* 03_imdb_scores_votes_genres.ipynb - Explores what makes a Netflix show popular
+* 04_maturity_rating_evolution.ipynb - Explores broader market trends or shifts in audience demographics
+* 05_pandemic_reality_tv.ipynb - Explores if the pandemic changed viewing habits in favour of non-scripted reality TV
 
 ## <a id="structure-header"></a>Repository Structure
 
@@ -150,8 +131,6 @@ For a short description of what each notebook contains, please see the [Jupyter 
 * Presentation and report files in the Presentation directory [Presentation/](Presentation/)
 * Image and Plots in the Images directory [Images](Images/)
 * Dataset files in the Resources directory [Resources](Resources/)
-
-
 
 ## <a id="team-header"></a>Credits / Collaborators / Team
 
