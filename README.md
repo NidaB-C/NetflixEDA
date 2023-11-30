@@ -1,6 +1,6 @@
 # Evolving Landscapes of Television: An Analytical Dive into TV Show Trends on Netflix?
 
-![Title Image](readme_images/title.jpeg)
+![Title Image](Images/readme_images/title.jpeg)
 
 ### Objective:
 This project aims to conduct a comprehensive analysis of TV shows available on Netflix, focusing on their evolution over time, the impact of the pandemic on genre popularity, regional production trends, and the relationship between IMDb scores, votes, and genres. The analysis will leverage a primary dataset from Kaggle along with supplementary data from the OMDB API. By examining various aspects such as maturity ratings, genre popularity, production trends, and viewer ratings, the study aims to offer valuable insights for content creators, media strategists, and streaming service analysts.
@@ -30,7 +30,7 @@ There was one CSV file in this data set.
 
 The file should be placed in the Resources/ Directory:
 
-![KaggleData](readme_images/kaggle_data.PNG)
+![KaggleData](Images/readme_images/kaggle_data.PNG)
 
 Supplemental information on languages using the imdb_id was added from the OMDB API - this was not availible in the original dataset.
 
