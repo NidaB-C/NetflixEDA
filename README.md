@@ -66,8 +66,8 @@ In an attempt to address each question, we created a number of [visualisations](
 Here are 2 examples visualisations we created from the data.\
 The plots can be found in the [/Images](/Images) folder after running the code in the Notebook files that are in the root directory.
 
-<img src="Images/Average IMDb Score per Genre.png" width="50%" height="50%"></img>
-<img src="Images/No of reality tv shows made per year.png" width="50%" height="50%"></img>
+<img src="Images/readme_images/sample_1.png" width="50%" height="50%"></img>
+<img src="Images/readme_images/sample_2.png" width="50%" height="50%"></img>
 
 
 ## <a id="reports-header"></a>Findings Reports and Presentation
@@ -88,6 +88,7 @@ In order to run the files you will need to install the following packages.
 * seaborn `pip install seaborn`
 * matplotlib `pip install matplotlib`
 * scipy `pip install scipy`
+* ast `pip install ast`
 * jupyter notebook `pip install notebook`
 
 **OMDB API Key requirement**
