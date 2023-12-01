@@ -41,22 +41,22 @@ It must be noted that the data was limited in scope e.g. while we had informatio
 
 ## <a id="project-header"></a>Project Outline
 
-We decided to tackle a number of key questions:
-* **Genre Production Patterns**
+We decided to tackle a number of key questions: 
+**Genre Production Patterns**
 - What can be inferred about Netflix's content strategy based on the genres and types of shows produced?
 - How has the diversity of production regions and languages changed over time on Netflix?
 - How does Netflix's content portfolio compare with its initial years versus the more recent years?
 
-* **IMDb Score, Votes, and Genre Relationship**
+**IMDb Score, Votes, and Genre Relationship**
 - Are certain genres consistently receiving higher ratings and votes?
 - Are older shows maintaining popularity, or is there a trend towards newer releases?
 - What factors contribute to higher viewer engagement and popularity for TV shows on Netflix? 
 
-* **Maturity Rating Evolution**
+**Maturity Rating Evolution**
 - How do different age certifications (like TV-MA, TV-14) perform in terms of quantity and popularity?
 - Does this reflect any broader market trends or shifts in audience demographics?
 
-* **Pandemic and Reality TV Popularity**
+**Pandemic and Reality TV Popularity**
 - Was there a significant rise in the popularity of reality TV shows during the pandemic, and has this increase been sustained post-pandemic?
 - How do scripted TV shows perform in comparison to non-scripted ones in terms of IMDb scores, viewer engagement, and production rates?
 
