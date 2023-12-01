@@ -42,6 +42,7 @@ It must be noted that the data was limited in scope e.g. while we had informatio
 ## <a id="project-header"></a>Project Outline
 
 We decided to tackle a number of key questions: 
+
 **Genre Production Patterns**
 - What can be inferred about Netflix's content strategy based on the genres and types of shows produced?
 - How has the diversity of production regions and languages changed over time on Netflix?
