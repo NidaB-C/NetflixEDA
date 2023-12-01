@@ -66,8 +66,8 @@ In an attempt to address each question, we created a number of [visualisations](
 Here are 2 examples visualisations we created from the data.\
 The plots can be found in the [/Images](/Images) folder after running the code in the Notebook files that are in the root directory.
 
-<img src="Images/readme_images/sample_1.png" width="50%" height="50%"></img>
-<img src="Images/readme_images/sample_2.png" width="50%" height="50%"></img>
+<img src="Images/readme_images/sample_1.png"></img>
+<img src="Images/readme_images/sample_2.png"></img>
 
 
 ## <a id="reports-header"></a>Findings Reports and Presentation
